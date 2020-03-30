@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F5FE6B42431952200FAC136 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1F5FE6B32431952200FAC136 /* README.md */; };
 		1FC6CEB1243163EE002B7F33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC6CEB0243163EE002B7F33 /* AppDelegate.swift */; };
 		1FC6CEB3243163EE002B7F33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC6CEB2243163EE002B7F33 /* SceneDelegate.swift */; };
 		1FC6CEB5243163EE002B7F33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC6CEB4243163EE002B7F33 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F5FE6B32431952200FAC136 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1FC6CEAD243163EE002B7F33 /* Roll_dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roll_dice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC6CEB0243163EE002B7F33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FC6CEB2243163EE002B7F33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		1FC6CEAF243163EE002B7F33 /* Roll_dice */ = {
 			isa = PBXGroup;
 			children = (
+				1F5FE6B32431952200FAC136 /* README.md */,
 				1FC6CEB0243163EE002B7F33 /* AppDelegate.swift */,
 				1FC6CEB2243163EE002B7F33 /* SceneDelegate.swift */,
 				1FC6CEB4243163EE002B7F33 /* ViewController.swift */,
@@ -127,6 +130,7 @@
 			files = (
 				1FC6CEBD243163F2002B7F33 /* LaunchScreen.storyboard in Resources */,
 				1FC6CEBA243163F2002B7F33 /* Assets.xcassets in Resources */,
+				1F5FE6B42431952200FAC136 /* README.md in Resources */,
 				1FC6CEB8243163EE002B7F33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GWXAFB6JRH;
 				INFOPLIST_FILE = Roll_dice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GWXAFB6JRH;
 				INFOPLIST_FILE = Roll_dice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
